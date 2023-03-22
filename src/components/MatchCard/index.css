@@ -1,0 +1,48 @@
+/* * {
+  border: 1px solid red;
+} */
+.cards-bg {
+  background-color: #1e293b;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .cards-bg {
+    width: 30%;
+  }
+}
+
+.cards-logo {
+  width: 50px;
+  height: 50px;
+}
+.card-name-heading {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  height: 50px;
+}
+.card-name-para {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.win {
+  color: #18ed66;
+}
+.lose {
+  color: #e31a1a;
+}
