@@ -12,7 +12,7 @@ const MatchCard = props => {
         alt={`competing team ${competingTeam}`}
         className="cards-logo"
       />
-      <h1 className="card-name-heading">{competingTeam}</h1>
+      <p className="card-name-heading">{competingTeam}</p>
       <p className="card-name-para">{result}</p>
       <p className={status}>{matchStatus}</p>
     </li>
