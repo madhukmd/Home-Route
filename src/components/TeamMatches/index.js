@@ -74,7 +74,7 @@ class TeamMatches extends Component {
 
   loader = () => (
     <div data-testid="loader">
-      <Loader type="Oval" color="#ffffff" height={50} width={50} />{' '}
+      <Loader type="Oval" color="#ffffff" height={50} width={50} />
     </div>
   )
 
@@ -82,11 +82,7 @@ class TeamMatches extends Component {
     const {banner, latestMatch, matchCard} = this.state
     return (
       <div className="img-container">
-        <img
-          src={banner}
-          alt={latestMatch.competingTeam}
-          className="banner-logo"
-        />
+        <img src={banner} alt="team banner" className="banner-logo" />
         <h1 className="latest-heading">Latest Matches</h1>
         <LatestMatch latestItem={latestMatch} />
         <ul className="cards-container">
